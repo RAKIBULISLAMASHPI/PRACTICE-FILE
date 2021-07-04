@@ -15,8 +15,16 @@ margin: 0;
     color: chocolate;
     text-decoration: none;
     padding: 10px 20px;
+    
 
     
+}
+.button{
+    border-radius: 50%;
+    background-color: green;
+    border: 5px  solid red, green;
+    color: rgb(252, 16, 16);
+    font-size: 20px;
 }
 .information{
     display: flex;
@@ -24,7 +32,7 @@ margin: 0;
     background-repeat: no-repeat;
 }
 .demo3 img{
-    width: 80%;
+    width: 100%;
 }
 h1{
     font-size: 50px;
@@ -32,11 +40,43 @@ h1{
 }
 .experience{
     display: flex;
-    margin-top: 50px;
+    margin-top: 100px;
+background-image: url(dream-bg.png);
+background-position: right;
+background-repeat: no-repeat;
 }
 .part1 img{
     width: 100%;
 }
 .part2{
-    margin-left:50px;
+    margin-left:80px;
+}
+.web{
+    display: flex;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.full{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 5%;
+     border-radius: 5px;
+    border: 6px solid;
+    box-shadow: 10px 10x 10px rgb(153, 88, 51);
+    border-style: outset;
+   
+}
+.baby{
+    margin-top: 40px;
+     border-radius: 5px;
+    border: 6px solid;
+      border-style: dotted solid double dashed;
+    box-shadow: 10px 10x 10px rgb(52, 235, 15);
+    padding: 5px;
+   
+}
+.footer{
+    text-align: center;
+    margin-top: 200px;
 }
